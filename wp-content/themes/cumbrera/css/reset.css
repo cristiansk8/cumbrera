@@ -1,0 +1,165 @@
+	
+/* 2. RESET
+-----------------------------------------------------------------------------------------------
+===============================================================================================*/
+
+	/* http://meyerweb.com/eric/tools/css/reset/ */
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{
+	  margin:0;  padding:0;  border:0;  outline:0;  font-size:100%;  font:inherit;  vertical-align:baseline;}
+	/* HTML5 display-role reset for older browsers */
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{  display:block;}
+	body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td{margin:0; padding:0;}
+	table{border-collapse:collapse; border-spacing:0;}
+	fieldset, img{border:0;}
+	address, caption, cite, code, dfn, em, strong, th, var, optgroup{font-style:inherit; font-weight:inherit;}
+	del, ins{text-decoration:none;}
+	
+	caption, th{text-align:left;}
+	h1, h2, h3, h4, h5, h6{font-size:100%; font-weight:normal;}
+	q:before, q:after{content:'';}
+	abbr, acronym{border:0; font-variant:normal;}
+	sup{vertical-align:baseline;}
+	sub{vertical-align:baseline;}
+	legend{color:#000;}
+	input, button, textarea, select, optgroup, option{font-family:inherit; font-size:inherit; font-style:inherit; font-weight:inherit; color:#808285;}
+	*{outline:none; box-sizing: border-box;}
+	.antialias{text-rendering: optimizeLegibility;-webkit-text-size-adjust: none;-webkit-font-smoothing: antialiased; }
+	img{border:none; padding:0px; margin:0px; display:block;}
+	a{text-decoration:none; outline:none !important;}
+	
+	
+	td{padding:0px; margin:0px; border-collapse:collapse}
+	h2{border:0; margin:0; outline:0; padding:0; vertical-align:baseline}
+	
+	.nomargin{margin: 0 !important;}
+	.noborder{border: none !important;}
+	.border{border:1px solid #F00}
+	.bold, b, strong{ font-weight: bold;}
+	.tachado{text-decoration:line-through}
+	.cursiva, i, em{font-style:italic}
+	.regular{font-weight:normal}
+	.center{text-align:center; position: relative;}
+	.center td{text-align:center}
+	.mayus{text-transform:uppercase}
+	.minus{text-transform:none}
+	.white{background-color:#FFF}
+	.left{float:left}
+	.right{float:right}
+	.text-right{ text-align: right;}
+
+	.tabla{ display: table !important; width: 100%; height: 100%;}
+	.celda{ display: table-cell; vertical-align: middle;}
+	.fila{ display: table-row;}
+
+	.src_return{ background-size: cover; background-repeat: no-repeat; background-position: center;}
+	.return_parent{ opacity: 0; filter: alpha(opacity=0); display: block; overflow: hidden; height: 0; width: 0;}
+	#loader{
+		background-color: #fff;
+		position:fixed;		
+		left:0;
+		top:0;
+		z-index:1000000000000000000000000; 
+		width:100%;
+		height:100%;
+		display:block;
+		overflow: hidden;
+
+	}
+	
+	.cont_log_pre{
+		position:fixed;
+		top:50%;
+		left:50%;
+		margin:-70px 0 0 -125px;
+		overflow: hidden;
+	}
+	
+
+	
+	
+	/* TAMAÃƒâ€˜O FUENTES*/	
+	.fon8{font-size:8px}.fon9{font-size:9px}.fon10{font-size:10px}.fon11{font-size:11px}.fon12{font-size:12px}.fon13{font-size:13px}.fon14{font-size:14px}.fon15{font-size:15px}.fon16{font-size:16px}.fon17{font-size:17px}.fon18{font-size:18px}.fon19{font-size:19px}.fon20{font-size:20px}.fon21{font-size:21px}.fon22{font-size:22px}.fon23{font-size:23px}.fon24{font-size:24px}.fon25{font-size:25px}.fon26{font-size:26px}.fon27{font-size:27px}.fon28{font-size:28px}.fon29{font-size:29px}.fon30{font-size:30px}.fon31{font-size:31px}.fon32{font-size:32px}.fon33{font-size:33px}.fon34{font-size:34px}.fon35{font-size:35px}.fon36{font-size:36px}.fon37{font-size:37px}.fon38{font-size:38px}.fon39{font-size:39px}.fon40{font-size:40px}.fon41{font-size:41px}.fon42{font-size:42px}.fon43{font-size:43px}.fon44{font-size:44px}.fon45{font-size:45px}.fon55{font-size:55px}.fon63{font-size:63px; }.fon66{font-size:66px;}.fon62{font-size:62px;}.fon72{font-size:72px}
+	
+	
+	html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+		
+
+
+	/* COLORES */
+	.fonwhite{color:#FFF;}
+	.fonmorado{color:#a61e87;}
+	
+	/* CLEARFIX */	
+	.clearfix:after{content:" ";display:block;height:0;clear:both;visibility:hidden}
+	.clearfix{display:inline-block}
+	* html .clearfix{height:1px;}
+	.clearfix{display:block}
+	
+	
+	/* FUENTES EMBEBIDAS*/		
+	
+
+
+
+	@font-face {
+		font-family: 'Aaux ProMedium';
+		src: url('../fonts/AauxProMedium.eot');
+		src: url('../fonts/AauxProMedium.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/AauxProMedium.woff2') format('woff2'),
+			url('../fonts/AauxProMedium.woff') format('woff'),
+			url('../fonts/AauxProMedium.ttf') format('truetype'),
+			url('../fonts/AauxProMedium.svg#AauxProMedium') format('svg');
+		font-weight: 500;
+		font-style: normal;
+	}
+
+
+	@font-face {
+	    font-family: 'icomoon';
+	    src:    url('../fonts/icomoon.eot?a9qh3b');
+	    src:    url('../fonts/icomoon.eot?a9qh3b#iefix') format('embedded-opentype'),
+	        url('../fonts/icomoon.ttf?a9qh3b') format('truetype'),
+	        url('../fonts/icomoon.woff?a9qh3b') format('woff'),
+	        url('../fonts/icomoon.svg?a9qh3b#icomoon') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	[class^="icon-"], [class*=" icon-"] {
+	    /* use !important to prevent issues with browser extensions that change fonts */
+	    font-family: 'icomoon' !important;
+	    speak: none;
+	    font-style: normal;
+	    font-weight: normal;
+	    font-variant: normal;
+	    text-transform: none;
+	    line-height: 1;
+
+	    /* Better Font Rendering =========== */
+	    -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;
+	}
+
+	.icon-pinterest:before {
+	    content: "\e901";
+	}
+	.icon-facebook:before {
+	    content: "\e900";
+	}
+	.icon-twitter:before {
+	    content: "\e902";
+	}
+	.icon-tumblr:before {
+	    content: "\e903";
+	}
+
+
+
+
+
+
+
+
+
+
+	

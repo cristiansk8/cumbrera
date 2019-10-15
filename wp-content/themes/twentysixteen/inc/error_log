@@ -1,0 +1,2 @@
+[30-Oct-2018 17:21:20 UTC] PHP Fatal error:  Call to undefined function is_admin() in /home/cumbrera/public_html/wp-content/themes/twentysixteen/inc/template-tags.php on line 169
+[03-Nov-2018 16:38:54 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/cumbrera/public_html/wp-content/themes/twentysixteen/inc/customizer.php on line 61
